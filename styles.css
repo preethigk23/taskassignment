@@ -1,0 +1,235 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #004080;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    width: 100%;
+    height: 150px;
+}
+
+.slogan {
+    text-align: center;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.input-container input {
+    padding: 10px;
+    border: 2px solid #004080;
+    border-radius: 5px;
+    margin: 0 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+.input-container button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #004080;
+    color: white;
+    outline: none;
+}
+
+.input-container button:hover {
+    background-color: #002E5D;
+}
+
+.task-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    width: 80%;
+    max-width: 600px;
+}
+
+.task {
+    margin-bottom: 10px;
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    width: 100%;
+    text-align: left;
+}
+
+.task strong {
+    color: #004080;
+}
+
+.task button {
+    background-color:  #004080;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: right;
+}
+
+.task button:hover {
+    background-color:#002E5D;
+}
+
+.task-questions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+.task-que:hover {
+    background: #002E5D;
+}
+
+.lastsen {
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+}
+.start2 {
+    color: #ffffff;
+    background: red;
+    padding: 10px 20px 9px 20px;
+    margin-left: 1vw;
+}
+
+.start2:hover {
+    background: #962020;
+    text-decoration: none;
+}  
+
+.footer {
+    color: #adadad;
+    text-decoration:none;
+    line-height: 8vh;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.call {
+    padding-left: 5vw;
+}
+
+.call1 {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 25px
+}
+
+.links {
+    display: flex;
+    flex-direction: row;
+}
+
+.col1 {
+    padding-left: 5vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.col2 {
+    padding-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.col3 {
+    padding-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+
+.col4 {
+    padding-left: 15vw;
+    display: flex;
+    flex-direction: column;
+}
+.four {
+    background-color: #004080; /* Change background color to #004080 */
+    /*padding: 20px;*/
+}
+.view-tasks {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #004080;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 20px;
+    transition: background-color 0.3s;
+}
+
+.view-tasks:hover {
+    background-color: #002e5d;
+}
+.tas{
+    text-align: center;
+}
+.task-questions {
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: center; /* Center the questions */
+    gap: 10px;
+}
+
+.task-que {
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #004080;
+    padding: 15px;
+    text-decoration: none;
+    display: inline-block;
+    flex: 1 0 45%;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+.task-que:hover {
+    background: #002E5D;
+}
+
+.task-que .plus-content {
+    display: none;
+    background: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 1;
+}
+
+.task-que:hover .plus-content {
+    display: block;
+}
